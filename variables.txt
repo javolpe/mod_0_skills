@@ -1,0 +1,11 @@
+food = 'pizza'
+is_delicious = true
+food = 'cake'
+num2 = 42
+num7 = 3
+quotient = num7 / num2
+songs = ['drift', 'sparkle', 'run like an antelope']
+
+songs.drop(1)
+
+food.length
