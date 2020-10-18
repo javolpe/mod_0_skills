@@ -11,6 +11,7 @@ Attributes:
 `in_stock` (true)
 
 Methods:
+
 `give_description` ('#{wine_name(would print 'Dark Horse')} is a #{type_of_wine (print 'Merlot')} from #{location_origin (print 'California')}.')
 
 `give_serving_suggestion_oz` (5)
