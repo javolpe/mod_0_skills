@@ -14,10 +14,10 @@ Attributes:
 
 Methods:
 
-`add_menu_emoji`: (no action)(checked vegetarian==false so vegetarian_emoji *not* added to menu)
+`add_menu_emoji`: (no action)(checked `vegetarian==false` so `vegetarian_emoji` *not* added to menu)
 
-`select_dressing`: ("ranch" - based on dressing selected from `dresings_available`)
+`select_dressing`: ("ranch" - based on `dressing` selected from `dresings_available`)
 
-`choose_bowl`: ("small white bowl" - instructions given to kitchen based on size == small)
+`choose_bowl`: ("small white bowl" - instructions given to kitchen based on `size == small`)
 
-`totaled_cost`: ("32.49" - price gets summed with other items into totaled_cost before tax_applied is calculated)
+`tally_cost`: ("32.49" - `price` gets summed with other items by `tally_cost` before `tax_applied` is called)
